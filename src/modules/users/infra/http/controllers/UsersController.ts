@@ -11,7 +11,7 @@ interface IUserResponse {
   created_at: Date;
 }
 
-class UserController {
+class UsersController {
   async create(request: Request, response: Response): Promise<Response> {
     const { email, password } = request.body;
 
@@ -32,4 +32,4 @@ class UserController {
   }
 }
 
-export default UserController;
+export default UsersController;
