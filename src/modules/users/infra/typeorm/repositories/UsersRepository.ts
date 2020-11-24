@@ -28,7 +28,7 @@ class UsersRepository implements IUsersRepository {
       password,
     });
 
-    this.ormRepository.save(user);
+    await this.ormRepository.save(user);
 
     return user;
   }

@@ -1,4 +1,4 @@
-# Cadastro de usuário
+# ✅️ Cadastro de usuário
 
 **Requisitos Funcionais**
 
@@ -14,7 +14,7 @@
 
 - O email deve ser único
 
-# Fazer logon
+# ✅️ Fazer logon
 
 **Requisitos Funcionais**
 
@@ -22,9 +22,13 @@
 
 **Requisitos Não Funcionais**
 
+- O hash da senha deve ser feito pelo bcryptjs
+- O token de autorização deve ser um jwt
+
 **Regras de Negócio**
 
 - O email do usuário deve estar previamente cadastrado na aplicação
+- A senha deve ser armazenada em um hash
 
 # Criar configuração de timer
 
