@@ -30,7 +30,7 @@
 - O email do usuário deve estar previamente cadastrado na aplicação
 - A senha deve ser armazenada em um hash
 
-# Criar configuração de timer
+# ✅️ Criar configuração de timer
 
 **Requisitos Funcionais**
 
@@ -42,4 +42,28 @@
 
 - O usuário deve estar autenticado
 
-- A nova configuração deve existir apenas para o usuário que a criou
+# ✅️ Listar configurações por usuário
+
+**Requisitos Funcionais**
+
+- O usuário deve poder ver todas as **suas** configurações
+
+**Requisitos não Funcionais**
+
+**Regras de negocio**
+
+- O usuário deve estar autenticado
+
+# ✅️ Deletar uma configuração
+
+**Requisitos Funcionais**
+
+- O usuário deve poder ver deletar uma de suas configurações
+
+**Requisitos não Funcionais**
+
+**Regras de negocio**
+
+- O usuário deve estar autenticado
+
+- A configuração deve existir previamente
